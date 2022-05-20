@@ -9,5 +9,11 @@
  */
 
 rootProject.name = 'learning-spring-security'
-include 'ch01-ex01'
-
+rootDir.listFiles().each {
+    f ->
+        {
+            if (f.name.startsWith("ssia")) {
+                include(f.name)
+            }
+        }
+}

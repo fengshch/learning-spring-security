@@ -1,4 +1,4 @@
-package samples.ch01ex01;
+package samples;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

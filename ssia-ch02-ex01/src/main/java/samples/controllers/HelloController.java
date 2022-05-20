@@ -1,4 +1,4 @@
-package samples.ch01ex01.controllers;
+package samples.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
